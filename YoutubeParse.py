@@ -2,8 +2,9 @@ import re
 from bs4 import BeautifulSoup
 import json
 from datetime import datetime
+import os
 
-takeout_dir = 'C:\\Users\\pranj\\Documents\\Google Data\\Takeout'
+takeout_dir = os.getcwd()+'\\Takeout'
 search_file = takeout_dir+'\\YouTube\\history\\search-history.html'
 watch_file = takeout_dir+'\\YouTube\\history\\watch-history.html'
 comments_file = takeout_dir+'\\YouTube\\my-comments\\my-comments.html'
