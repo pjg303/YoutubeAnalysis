@@ -1,2 +1,2 @@
-# SocialAnalytics
-This is my attempt at analyzing data from various social platforms like YouTube, Reddit, etc.
+# YoutubeAnalysis
+Analysing my personal Youtube data and deriving conclusions in form of graphs/plots.
